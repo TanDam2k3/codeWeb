@@ -1,0 +1,130 @@
+*{
+margin: 0px;
+padding: 0px;
+font-size: 15px;
+font-family: Verdana,sans-serif;
+}
+#header {
+    width: 100%;
+    height: auto;
+    padding: 16px 32px;
+    background-color:rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 1;
+}
+#header .headermain a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 12px;
+    box-sizing: border-box;
+    letter-spacing: 3px;
+}
+#header .headermain a b {
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+#header .headermain .header1 {
+    float: left;
+}
+#header .headermain .header2 {
+    float: right;
+}
+#header .headermain .header11:hover,
+#header .headermain .header21:hover,
+#header .headermain .header22:hover,
+#header .headermain .header23:hover {
+    background-color: rgba(148, 167, 175,0.8);
+    cursor: pointer;
+}
+#slider {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#slider .slider1 {
+    width: 100%;
+}
+#slider .slider2 {
+    letter-spacing: 3px;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#slider .slider2 b {
+    font-size: 36px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#content {
+    max-width: 1640px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 2%;
+}
+.kc {
+    margin: 10px 0;
+}
+.content-text {
+    padding: 16px 0;
+    border-bottom: solid rgba(188, 184, 184, 0.3);
+}
+#project b {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 15px;
+    padding: 5px;
+}
+img {
+    max-width: 100%;
+}
+#about .about-text {
+    margin: 8px 0;
+    font-size: 15px;
+}
+#contact .contact-input {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    margin: 5px 0;
+    padding: 6px;
+    box-sizing: border-box;
+}
+#contact .contact-button {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    background-color: black;
+    margin: 20px 0;
+    border: none;
+}
+#contact .contact-button:hover {
+    background-color:rgb(161, 155, 155);
+    color: black;
+    cursor: pointer;
+}
+#content .img-content {
+    width: 100%;
+}
+#footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+#footer .footer-content {
+    text-align: center;
+    font-size: 15px;
+}
+#footer .footer-text {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+#footer .footer-text:hover {
+    color: forestgreen;
+}
